@@ -1,0 +1,612 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+
+body {
+    margin: 0 auto;
+    min-width: 320px;
+    /* max-width: 750px; */
+    /* width: 10rem; */
+}
+
+
+/* 顶部模块 */
+.header {
+   width: 100%;
+}
+
+.header_top {
+    width: 100%;
+    height: .453333rem;
+    line-height: .453333rem;
+    background-color: #026eff;
+}
+
+.header_top .countent {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header_top_left {
+    padding-left: .2rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.header_top_left a {
+    font-size: .1733rem;
+}
+
+.header_top_left a svg {
+    vertical-align:middle;
+    margin-bottom: .04rem;
+
+}
+
+.header_top_right {
+    padding-right: .4667rem;
+    height: 100%;
+}
+
+.header_top_right ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    line-height: .4533rem;
+    font-size: .16rem;
+}
+
+.header_top_right ul li {
+    margin-left: .3067rem;
+    color: #fff;
+}
+
+.header_top_right .about {
+    margin-left: .5333rem;
+}
+
+.header_head {
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+}
+.header_head .countent {
+    height: 100%;
+   display: flex;
+   justify-content:space-evenly;
+}
+.header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.header_left img {
+    width: 150px;
+}
+
+.header_center {
+    width: 100%;
+    height: 100%;
+}
+
+.header_center ul {
+    height: 100%;
+    margin-left: 35px;
+    list-style: none;
+}
+
+.header_center ul li {
+    height: 100%;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.header_center ul li a {
+    position: relative;
+    height: 15px;
+    line-height: 15px;
+    color: #333;
+    font-size: 14.5px;
+}
+
+
+.header_center ul li a:hover {
+    color: #026eff; 
+}
+
+.header_center ul li:first-child a:hover svg path {
+    fill: #026eff; 
+}
+
+.header_border {
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    border-bottom: 2px solid #026eff;
+    box-shadow: 0 5px 10px #3f6fff;
+}
+
+.header_center ul li a svg {
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 230px;
+    height: 100%;
+}
+
+.header_right_r {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: .38rem;
+    line-height: .38rem;
+}
+
+.seach_box {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.seach_box input {
+    width: 85%;
+    height: 80%;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.seach_box svg {
+    position: absolute;
+    top: 0.06rem;
+}
+
+
+.header_logon {
+    position: relative;
+    width: .7733rem;
+    height: 100%;
+}
+
+.header_right_logon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: .1867rem;
+    background:#3f6fff;
+    border-radius: .05rem;
+    box-shadow: 0px 3px 5px #3f5fff;
+    transition-property: bottom;
+    transition-duration: .35s;
+}
+
+.header_right_logon:hover {
+    bottom: .04rem;
+}
+
+.header_right_menu {
+    display: none;
+}
+
+
+
+/* 导航栏模块 */
+.banner {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+.banner_img {
+    width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.banner_img a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.banner_deal {
+    padding: .466667rem 0 .4rem 0;
+    width: 100%;
+    height: .666667rem;
+    line-height: .666667rem;
+}
+
+.banner_deal ul {
+    display: flex;
+    justify-content: space-around;
+    width: 4.666667rem;
+    height: 100%;
+}
+
+.banner_deal ul li {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: .066667rem;
+    color: #000;
+    font-size: .186667rem;
+}
+
+
+.banner_deal ul li:hover a {
+    color: #026eff;
+}
+
+.banner_deal .banner_deal_current a{
+    color: #026eff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 内容模块 */
+.content {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.content .countent {
+    padding-left: 2.4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_list {
+    padding-bottom: .1rem;
+    margin-bottom: .4rem;
+    margin-right: 2.4%;
+    width: 22.6%;
+    border: .0133rem solid #666;
+    box-sizing: border-box;
+}
+
+.webname {
+    position: relative;
+    width: 100%;
+    height: .4667rem;
+    box-sizing: border-box;
+}
+
+.webname input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: #f00;
+    text-align: center;
+    padding-right: .2667rem;
+    font-size: .1733rem;
+}
+
+.webname:after {
+    display: block;
+    position:absolute;
+    top: .1067rem;
+    right: .2667rem;
+    content: "荐";
+    color: #fff;
+    font-size: .1333rem;
+    width: .2133rem;
+    height: .2133rem;
+    line-height: .2133rem;
+    text-align: center;
+    border-radius: .0667rem;
+    background-color: rgb(222, 60, 60);
+}
+
+.content_list img {
+    width: 100%;
+}
+
+.banben {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: .3333rem;
+    font-size: .1650rem;
+}
+
+.banben .com {
+    display: block;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+    border-radius: .0667rem;
+    line-height: .3333rem;
+    background-color:darkseagreen;
+}
+.banben .phone {
+    display: block;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+    border-radius: .0667rem;
+    line-height: .3333rem;
+    background-color:rgb(227, 208, 7);
+}
+.banben .back {
+    display: block;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+    border-radius: .0667rem;
+    line-height: .3333rem;
+    background-color:rgb(68, 167, 242);
+}
+.list_text { 
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+.list_text span{
+    color: #f00;
+    margin-left: .1333rem;
+    margin-right: .1333rem;
+}
+
+.list_text p{
+    font-size: .16rem;
+    margin-top: .1067rem;
+}
+.pirce {
+    display: flex;
+}
+.pirce .chuzu {
+    margin-right: .2667rem;
+}
+
+
+.footer {
+    width: 100%;
+    border-top: .06rem solid #026eff;
+}
+
+.footer_center {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 6.6667rem;
+    height: .4667rem;
+    line-height: .4667rem;
+    color: #999;
+    font-size: .1733rem;
+}
+
+
+.countent {
+    width: 19.333333rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1540px) {
+    .countent {
+        width: 95%;
+    }
+
+    
+}
+
+/* @media screen and (max-width: 1159px) {
+    .header_head {
+        height: 170px;
+    }
+
+    .header_center {
+        height: 50%;
+    }
+} */
+
+@media screen and (max-width: 1110px) {
+    .content .countent {
+        padding-left: 4.1%;
+    }
+    .content_list {
+        margin-right: 4.1%;
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header_head {
+        height: .5333rem;
+    }
+    .header_left,
+    .header_center {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 870px) {
+    .content .countent {
+        width: 92.5%;
+    }
+    .content_list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .countent {
+        width: 90%;
+    }
+    .header_top {
+        display: none;
+    }
+
+    .header_head {
+        height: 70px;
+    }
+    .header_left{
+        visibility: visible;
+    }
+
+    .header_left img {
+        width: 120px;
+    }
+    
+    .header_right {
+        width: 65px;
+    }
+
+    .header_right_r {
+        display: none;
+    }
+
+    .header_right_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 65px;
+        height: 28.5px;
+        line-height: 28.5px;
+    }
+
+    .header_right_menu span {
+        font-weight: 100;
+        font-size: 15px;
+    }
+    
+    .header_right_menu a {
+        color: #000;
+        font-size: 19.5px;
+    }
+
+    .header_right_menu a svg {
+        width: 18.75px;
+        height: 18.75px;
+        vertical-align: middle;
+        margin-bottom: 2.25px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .content .countent {
+        width: 95%;
+        padding-left: 0;
+    }
+    .content_list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 48%;
+    }
+
+    .banner_img {
+        width: 100%;
+        height: 3.333333rem;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+    .banner_img a {
+        transform: translateX(-16%);
+        display: block;
+        width: 14.6rem;
+    }
+
+    .banner_img a img {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .content .countent {
+        width: 95%;
+        padding-left: 0;
+    }
+    .content_list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 48%;
+    }
+    
+    .webname {
+        height: .666667rem;
+    } 
+
+    .webname:after {
+        display: none;
+    }
+    
+    .banben {
+        display: flex;
+         flex-direction: column;
+         width: 90%;
+         height: 3rem;
+    }
+    
+    .banben .com,
+    .banben .phone,
+    .banben .back {
+        display: block;
+        width: 100%;
+        height: 0.75rem;
+        line-height: 0.75rem;
+        border-radius: .133333rem;
+    }
+
+    .pirce {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user1,
+    .user2 {
+        font-style: normal;
+        display: block;
+        width: 3.65rem;
+    }
+
+    .pirce span {
+       margin: 0 .4rem 0 .4rem;
+    }
+}
+
+
+
