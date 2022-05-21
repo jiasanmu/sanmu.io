@@ -536,6 +536,7 @@ a {
         width: 48%;
     }
 
+
     .banner_img {
         width: 100%;
         height: 3.333333rem;
@@ -552,7 +553,10 @@ a {
         width: 100%;
         height: 100%;
     }
-    
+
+    .banner_deal ul li {
+        font-size: 15.5px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -573,6 +577,7 @@ a {
     .webname:after {
         display: none;
     }
+
     
     .banben {
         display: flex;
