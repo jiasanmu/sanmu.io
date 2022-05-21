@@ -554,7 +554,15 @@ a {
         height: 100%;
     }
     
-    .banner_deal ul li,
+    .banner_deal ul {
+        width: 370px;
+    }
+    
+    .banner_deal ul li {
+        width: 34%;
+        font-size: 12px;
+    }
+    
     .webname input,
     .banben,
     .list_text p,
