@@ -554,16 +554,10 @@ a {
         height: 100%;
     }
     
-    .webname input {
-        font-size: 1rem;
-    }
-    
-    .banben {
-        font-size: .2rem;
-    }
-     
+    .webname input,
+    .banben,
     .list_text p{
-        font-size: .2rem;
+        font-size: 20px;
     }
 
 }
