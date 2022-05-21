@@ -557,7 +557,8 @@ a {
     .banner_deal ul li,
     .webname input,
     .banben,
-    .list_text p{
+    .list_text p,
+    .footer_center{
         font-size: 18px;
     }
 
