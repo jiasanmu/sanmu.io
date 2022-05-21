@@ -554,13 +554,22 @@ a {
         height: 100%;
     }
     
+    .banner_deal {
+        padding: 12px 0 12px 0;
+        height: 40px;
+        line-height: 40px;
+    }
+
     .banner_deal ul {
         width: 370px;
     }
     
     .banner_deal ul li {
-        width: 34%;
-        font-size: 12px;
+        width: 30%;
+        font-size: 13px;
+        border-radius: 10px;
+        background-color: #006fff;
+        color: #fff;
     }
     
     .webname input,
