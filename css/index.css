@@ -554,10 +554,11 @@ a {
         height: 100%;
     }
     
+    .banner_deal ul li,
     .webname input,
     .banben,
     .list_text p{
-        font-size: 20px;
+        font-size: 0.24rem;
     }
 
 }
